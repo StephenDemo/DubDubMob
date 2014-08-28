@@ -27,6 +27,9 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        $(".app").on("click", function () {
+            window.location = "http://fieldconnectcert.deere.com";
+        });
     },
     // deviceready Event Handler
     //
