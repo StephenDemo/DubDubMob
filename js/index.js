@@ -28,7 +28,7 @@ var app = {
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
         $("#ToFieldConnect").on("click", function () {
-            window.location = "http://192.168.0.11:8000/public/gap.htm";
+            window.location = "http://192.168.0.11:8000/public/gap.htm?v=" + new Date().getMilliseconds();
         });
     },
     // deviceready Event Handler
