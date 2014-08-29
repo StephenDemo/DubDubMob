@@ -21,8 +21,7 @@
 }
 
 html {
-    background: url(../img/bg.png) no-repeat center center fixed; 
-    background-size: cover;
+
     
 }
 
@@ -63,7 +62,8 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    
+    background: url(../img/bg.png) no-repeat center center fixed;
+    background-size: cover;
     position:absolute;             /* position in the center of the screen */
     left:0;
     top:0;
