@@ -28,7 +28,7 @@ var app = {
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
         $(".app").on("click", function () {
-            window.location = "http://fieldconnectcert.deere.com";
+            window.location = "http://192.168.0.11:8000/public/gap.htm";
         });
     },
     // deviceready Event Handler
