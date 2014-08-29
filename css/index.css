@@ -20,6 +20,12 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
+html {
+    background: url(../img/bg.png) no-repeat center center fixed; 
+    background-size: cover;
+    
+}
+
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
@@ -39,7 +45,7 @@ body {
 
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size: 24px;
     /* height:100%; */
     margin:0px;
     padding:0px;
@@ -57,8 +63,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background: url(../img/bg.png) no-repeat center center; /* 170px x 200px */
-    background-size: cover;
+    
     position:absolute;             /* position in the center of the screen */
     left:0;
     top:0;
@@ -133,7 +138,7 @@ li {
     color: #fff;
     /* padding: 10px 0px; */
     /* margin-bottom: 5%; */
-    font-size: 16px;
+   
     display: inline-block;
     width: 100%;
     /* margin-top: -16px; */
@@ -155,7 +160,7 @@ li {
 
 
 h1 {
-    font-size:24px;
+    font-size:28px;
     font-weight:normal;
     margin:0px;
     overflow:visible;
